@@ -1,11 +1,133 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Git Downloads Page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <header class="header">
+        <div class="logo">
+            <img src="img/git-logo.png" alt="Git Logo">
+            <h1 class="tagline">--distributed-is-the-new-centralized</h1>
+        </div>
+        <div class="search-box">
+            <input type="text" placeholder="Search entire site...">
+        </div>
+    </header>
+
+    <main class="container">
+        <aside class="sidebar">
+            <ul>
+                <li>About</li onclick="prueba()">
+                <li>Documentation</li>
+                <li class="highlight">Downloads</li>
+
+                    <ul>
+                        <li>GUI Clients</li>
+                        <li>Logos</li>
+                    </ul>
+                
+                <li>Community</li>
+            </ul>
+            <div class="book-info">
+                <p>The entire <strong>Pro Git book</strong> written by Scott Chacon and Ben Straub is available to read
+                    online for free. Dead tree versions are available on <a href="#">Amazon.com</a>.</p>
+            </div>
+        </aside>
+
+        <section class="content">
+            <h1>Downloads</h1 onclick="contacto()">
+
+        <div class="row">
+            <div>
+                <div class="download-options">
+                    <div>
+                        <div class="os-option">
+                            <img src="img/apple-icon.png" alt="Mac OS X Icon"> 
+                            <a href="https://git-scm.com/downloads/mac">Mac OS X</a>
+                        </div>
+
+                        <div class="os-option">
+                            <img src="img/linux-icon.png" alt="Linux Icon">
+                            <a href="https://git-scm.com/downloads/mac  ">Linux/Unix</a>
+                        </div>
+
+                    </div>
+
+                    <div class="os-option">
+                        <img src="img/windows-icon.png" alt="Windows Icon">
+                        <a href="https://git-scm.com/downloads/linux"> Windows</a>
+                    </div>
+
+                </div>
+                    <p><a href="https://mirrors.edge.kernel.org/pub/software/scm/git/">Older releases</a>
+                        are available and the 
+                        <a href="https://github.com/git/git"> Git source repository </a>
+                    </p>
+                    <p> is on GitHub.</p>
+                    
+            </div>
+
+        
+            <div class="latest-release">
+            <!-- <img src="img/monitor.png" alt="Monitor Image" class="monitor">-->
+                <div class="release-info">
+                    <p class="version">Latest source Release 2.20.1</p>
+                    <p class="release-date">Release Notes (2018-12-15)</p>
+                    <button class="download-button">Download 2.19.2 for Mac</button>
+                </div>
+            </div>
+        </div>
+
+
+            <div class="sections">
+                <div class="section">
+                    <h2 class="highlight">GUI Clients</h2>
+                    <br>
+                    <p>Git comes with built-in GUI tools (<em>git-gui</em>, <em>gitk</em>), but there are several
+                        third-party tools for users looking for a platform-specific experience.</p>
+                        <br>
+                    <a href="https://git-scm.com/downloads/guis" class="link">View GUI Clients â†’</a>
+                </div>
+                <div class="section">
+                    <h2 class="highlight">Logos</h2>
+                    <br>
+                    <p>Various Git logos in PNG (bitmap) and EPS (vector) formats are available for use in online and
+                        print projects.</p>
+                    <br>
+                    <a href="https://git-scm.com/downloads/logos" class="link">View Logos â†’</a>
+                </div>
+            </div>
+
+            <div class="git-via">
+                <h2 class="highlight">Git via Git</h2>
+                <p>If you already have Git installed, you can get the latest development version via Git itself:</p>
+                <p><code>git clone https://github.com/git/git</code></p>
+                <p>You can also browse the current contents of the git repository using the <a href="#">web
+                        interface</a>.</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Pie de pÃ¡gina -->
+    <footer class="footer">
+        <div class="footer-left">
+            <img src="img/code-icon.png" alt="">
+            <p>
+                <a href="https://git-scm.com/site">About this site</a><br>
+                Patches, suggestions, and comments are welcome.
+            </p>
+        </div>
+        <div class="footer-right">
+            <p>Git is a member of <a href="https://git-scm.com/sfc/">Software Freedom Conservancy</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
+
 </html>

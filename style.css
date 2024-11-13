@@ -1,0 +1,230 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    background-color: #cfd1d8;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #cfd1d8;
+    padding: 60px;
+    height: 50px;
+    margin-right: 8px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 24px;
+    margin-right: 8px;
+}
+
+.tagline {
+    font-size: 16px;
+    color: #666;
+}
+
+.search-box input {
+    padding: 5px 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    width: 180px;
+}
+
+.container {
+    display: flex;
+    padding: 20px;
+}
+
+.sidebar {
+    width: 200px;
+    margin-right: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.sidebar ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.highlight {
+    color: #d9534f;
+    font-weight: bold;
+}
+
+.book-info {
+    padding: 10px;
+    font-size: 14px;
+    color: #000000;
+    background-color: rgb(213, 213, 213);
+}
+
+.content {
+    flex: 1;
+    background-color: rgb(255, 255, 255);
+    margin: 50px;
+    padding: 13px;
+}
+
+h1 {
+    font-size: 28px;
+    color: #000000;
+    margin-bottom: 20px;
+    margin: 20px;
+    padding: 13px;
+    font-size: 40px;
+    
+}
+
+.download-options {
+    display: flex;
+    background-color: rgb(235, 233, 233);
+    padding: 8px 10px;
+    width: 400px;
+    margin: 20px;
+}
+
+.os-option {
+    display: flex;
+    padding: 8px 12px;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #3b5998;
+}
+
+.os-option img {
+    height: 20px;
+    margin-right: 8px;
+}
+
+.row{
+    display: flex;
+}
+
+
+.latest-release {
+    background: url(img/monitor.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    display: flex;
+    padding: 100px;
+    max-width: 380px;
+    max-height: 350px;
+    margin: 50px;    
+}
+
+
+
+.release-info {
+    position: relative;
+    color: white;
+    padding-bottom: 80px;
+}
+
+.version {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.release-date {
+    font-size: 14px;
+    color: #ddd;
+}
+
+.download-button {
+    background-color: rgb(21, 169, 174);
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+
+.sections {
+    display: flex;
+    margin-bottom: 50px;
+    background-color: rgb(209, 209, 209);
+    margin: 20px;
+    width: 1000px ;
+}
+
+.section {
+    flex: 1;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.link {
+    color: #3b5998;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.git-via {
+    font-size: 16px;
+}
+
+.git-via code {
+    background-color: #c4c7ce;
+    padding: 2px 4px;
+    font-family: monospace;
+    color: #d9534f;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    padding: 20px 0;
+    border-top: 1px solid #c5ccd8;
+    font-size: 14px;
+    color: #666;
+    margin-top: 30px;
+}
+
+.footer-left, .footer-right {
+    display: flex;
+    align-items: center;
+}
+
+.footer-left span {
+    font-size: 20px;
+    margin-right: 10px;
+    color: #aaa;
+}
+
+.footer a {
+    color: #5a8d8d;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+    justify-content: right;
+}
